@@ -1,28 +1,25 @@
 #include <iostream>
 #include <string>
-int wiersze;
+
 int main() {
 	using namespace std;
 	setlocale(LC_ALL, "pl_PL");
 
 	cout << "Podaj liczbê wierszy: " << endl;
+	int wiersze;
 	cin >> wiersze;
-	//tworzenie dynamicznej tablicy 2 wymiarowej na znaki
-	const char** znaczki = new const char *[wiersze];
-	for (int i = 0; i < wiersze; i++)
-		znaczki[i] = new const char[wiersze];
-	//wype³nienie tablicy kropkami
-	for (int i = 0; i < wiersze; i++)
+	for (int i = 0; i <= (wiersze-1); i++)
 	{
-		znaczki[i] = ".";
+		cout << endl;
+		for (int k = i; k < (wiersze-1); k++)
+			cout << "*";
+		for (int k = 0; k <= i; ++k)
+			cout <<".";
 	}
-	
 
-	//wyœwietlenie ca³ej tablicy
-	for (int i = 0; i < wiersze; i++)
-	{
-		cout << znaczki[i][i];
-	}
+
+
+	
 
 	return 0;
 }
