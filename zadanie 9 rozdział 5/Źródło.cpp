@@ -12,9 +12,9 @@ int main() {
 	{
 		cout << endl;
 		for (int k = i; k < (wiersze-1); k++)
-			cout << "*";
+			cout << ".";
 		for (int k = 0; k <= i; ++k)
-			cout <<".";
+			cout <<"*";
 	}
 
 
