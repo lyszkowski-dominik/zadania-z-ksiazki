@@ -26,7 +26,6 @@ int main() {
 		}
 		cin.get(ch);
 	}
-	cout << "Liczba wszystkich znaków to : " << total << endl;
 	cout << zdanie;
  
 	return 0;
