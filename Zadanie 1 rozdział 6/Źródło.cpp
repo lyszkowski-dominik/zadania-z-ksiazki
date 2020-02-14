@@ -15,13 +15,11 @@ int main() {
 		{
 			if (isupper(ch))
 			{
-				tolower(ch);
-				zdanie += ch;
+				zdanie += tolower(ch);
 			}
 			else
 			{
-				toupper(ch);
-				zdanie += ch;
+				zdanie += toupper(ch);
 			}
 		}
 		cin.get(ch);
