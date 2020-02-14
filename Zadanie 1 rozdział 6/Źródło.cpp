@@ -7,7 +7,6 @@ int main() {
 
 	cout << "Podaj tekst do analizy. Zakoñcz go znakiem @" << endl;
 	char ch;
-	int total = 0;
 	string zdanie;
 	cin.get(ch);
 	while (ch != '@') 
@@ -25,7 +24,6 @@ int main() {
 				zdanie += ch;
 			}
 		}
-		total++;
 		cin.get(ch);
 	}
 	cout << "Liczba wszystkich znaków to : " << total << endl;
