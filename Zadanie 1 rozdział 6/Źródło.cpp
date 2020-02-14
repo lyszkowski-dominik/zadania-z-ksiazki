@@ -23,11 +23,6 @@ int main() {
 				toupper(ch);
 				zdanie += ch;
 			}
-				
-			
-			
-		
-			
 		}
 		total++;
 		cin.get(ch);
