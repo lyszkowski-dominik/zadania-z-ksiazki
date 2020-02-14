@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 int main() {
 	using namespace std;
 	setlocale(LC_ALL, "pl_PL");
