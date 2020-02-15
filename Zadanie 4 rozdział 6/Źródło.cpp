@@ -38,6 +38,21 @@ int main() {
 				cout << members[i].pseudozpdw << endl;
 			break;
 		case 'd':
+			for (int i = 0; i < 4; i++) 
+			{
+				switch (members[i].preferencje)
+				{
+				case 0:
+					cout << members[i].imie << endl;
+					break;
+				case 1:
+					cout << members[i].stanowisko << endl;
+					break;
+				case 2:
+					cout << members[i].pseudozpdw << endl;
+					break;
+				}
+			}
 			break;
 		default: cout << "Nie ma takiej opcji\n";
 		}
