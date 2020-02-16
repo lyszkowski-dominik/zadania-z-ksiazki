@@ -19,6 +19,6 @@ int main() {
 			cout << "Twój podatek wynosi: " << (10000 * 0.10) + (20000 * 0.15) + (payout - 35000) * 0.20 << endl;
 		cin >> payout;
 	}
-	
+	cout << "Podano niepoprawn¹ wartoœæ. Zamykam program." << endl;
 	return 0;
 }
