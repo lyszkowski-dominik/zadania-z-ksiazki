@@ -3,7 +3,7 @@
 #include <cctype>
 #include <fstream>
 using namespace std;
-struct donors { char name[50]; char surname[50]; double datek; };
+struct donors { string name; string surname; double datek; };
 int main() {
 	
 	setlocale(LC_ALL, "pl_PL");
