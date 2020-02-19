@@ -14,6 +14,11 @@ int main() {
 	cout << "Podaj nazwê pliku: \n";
 	cin >> filename;
 	inFile.open(filename);
+	if (!inFile)
+	{
+		cout << "Plik nie zosta³ znaleziony !";
+			return 0;
+	}
 	int users;
 	inFile >> users;
 	donors* ksiega = new donors[users];
