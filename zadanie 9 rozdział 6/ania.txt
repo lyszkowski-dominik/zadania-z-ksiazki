@@ -1,0 +1,9 @@
+4
+John Smith
+2000
+Ana Small
+3000
+Anna Lyszkowska
+12000
+Dominik Programista
+11000
